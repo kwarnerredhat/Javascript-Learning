@@ -15,6 +15,9 @@ type.Fashion = 'Designer';
 type.size = 12;
 
 console.log(type.name); //output is Rick Owens
+
+var query = "fashion";
+
 console.log(type['fashion']);//output is Designer
 
 
