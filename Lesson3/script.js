@@ -8,6 +8,6 @@ const shoes = {
 <p id="demo"></p>
 
 document.getElementById("demo").innerHTML = shoes.name + "are" + shoes.size + "is 12.";
-Fullname : functio() {
+Fullname : function() {
     return this.shoesname + " " + this.shoessize;
 }
