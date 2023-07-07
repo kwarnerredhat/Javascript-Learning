@@ -5,7 +5,7 @@ const shoes = {
     saySize: function() {
         
         console.log("The shoe size is" + this.size);
-        
+        console.log("The shoe type are" + this.type);
     }
 };
 shoes.saySize();
@@ -14,10 +14,10 @@ type.name = 'Rick Owens';
 type.Fashion = 'Designer';
 type.size = 12;
 
-console.log(type.name); //output is Rick Owens
+console.log(type.name); 
 
 var query = "fashion";
 
-console.log(type['fashion']);//output is Designer
+console.log(type['fashion']);
 
 
