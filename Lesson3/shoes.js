@@ -9,3 +9,5 @@ class shoes {
         console.log('Fashion, ' + this.Fashion + '!');
     }
 }
+
+export default shoes;
