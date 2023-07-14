@@ -6,11 +6,21 @@
 <html>
 <head>
 <title>Functions</title>
+<script>
+    function greet() {
+        var name = document .getElementId("nameInput").value;
+        var message = "Hello, " + name + "!";
+        document.getElementById("output").textContent
+    }
+</script>
 </head>
 <body>
 
-<h1>My function</h1>
+    
 
+<h1>My function</h1>
+<input type="text" id="nameInput" placeholder="Enter your name">
+<button onclick="greet()">greet</button>
 
 
 </body>
