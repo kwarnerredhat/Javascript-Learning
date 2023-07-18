@@ -7,6 +7,7 @@ headingElement.textContent = "Hello from Redhat";
 paragraphElement.style.color = "green";
 divElement.innerHTML ="<p> I love RedHat</p>";
 
-buttonELement.addEventListener("click, function() {
+buttonELement.addEventListener("click", function() {
     alert("Button clicked");
 });
+   
