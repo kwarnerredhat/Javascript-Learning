@@ -1,39 +1,22 @@
-const data = [
-    {
-      title: "Movie 1",
-      content: "This is the content of Movie 1.",
-    },
-    {
-      title: "Movie 2",
-      content: "This is the content of Movie 2.",
-    },
-    {
-      title: "Movie 3",
-      content: "This is the content of Movie 3.",
-    },
-  ];
-  
-  const displayMovies = () => {
-    const mainContainer = document.querySelector("#main-container");
-  
-    data.map((item) => {
-     
-      const movies = document.createElement("Movie");
-  
-      const titleElement = document.createElement("h2");
-      titleElement.textContent = item.title;
+function Lotteryticket(length) {
+  if (length <= 0) {
+    return [];
+  } else if (length === 1) {
+    return [0];
+  } else if (length === 2) {
+    return [0, 1];
+  }
 
-      const contentElement = document.createElement("p");
-      contentElement.textContent = item.content;
-  
-      movie.appendChild(titleElement);
-      movie.appendChild(contentElement);
-  
+  const Lotteryticket = [0, 1];
+  for (let i = 2; i < length; i++) {
+    const nextNumber = Lotteryticket[i - 1] + Lotteryticket[i - 2];
+    Lotteryticket.push(nextNumber);
+  }
 
-      mainContainer.appendChild(movie);
-    });
-  };
-  
-  
-  displayMovies();
+  return Lotteryticket;
+}
+const LotteryticketLength = 10; 
+
+console.log(Lotteryticket);
+
   
