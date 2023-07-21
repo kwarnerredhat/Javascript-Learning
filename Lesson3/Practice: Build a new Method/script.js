@@ -7,5 +7,5 @@ function Khalil() {
 const myInstance = new Khalil();
   myInstance.setValue(22);
 
-  console.log(myInstance.myProperty); // Output: 42
+  console.log(myInstance.myProperty);
   
