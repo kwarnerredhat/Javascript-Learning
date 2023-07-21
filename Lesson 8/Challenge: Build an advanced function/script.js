@@ -16,7 +16,6 @@ function Lotteryticket(length) {
   return Lotteryticket;
 }
 const LotteryticketLength = 10; 
-
 console.log(Lotteryticket);
 
   
