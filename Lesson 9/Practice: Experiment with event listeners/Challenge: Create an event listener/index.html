@@ -1,12 +1,20 @@
-<div class="outer">
-    outer, once & none-once
-    <div class="middle" target="_blank">
-      middle, capture & none-capture
-      <a class="inner1" href="https://www.mozilla.org" target="_blank">
-        inner1, passive & preventDefault(which is not allowed)
-      </a>
-      <a class="inner2" href="https://developer.mozilla.org/" target="_blank">
-        inner2, none-passive & preventDefault(not open new page)
-      </a>
-    </div>
-  </div>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>EventListener</h2>
+
+<button id="Button">click it</button>
+
+<script>
+var x = document.getElementById("Button");
+x.addEventListener("click", myFunction);
+
+function myFunction() {
+  alert ("Hello RedHat");
+}
+
+</script>
+
+</body>
+</html>
