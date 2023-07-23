@@ -1,3 +1,4 @@
+const header = document.querySelector("header");
 const navMenu = document.getElementById('navMenu');
 const menuItems = ['Home', 'About', 'Services', 'Contact'];
 function createNavMenu() {
