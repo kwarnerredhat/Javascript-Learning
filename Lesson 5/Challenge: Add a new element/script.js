@@ -1,3 +1,5 @@
+let x = mycreateNavMenu("Coffee", "Burrito");
+function mycreateNavMenu(a, b) {
 const header = document.querySelector("header");
 const navMenu = document.getElementById('navMenu');
 const menuItems = ['Coffee', 'Burrito', 'Bagel', 'Toast'];
@@ -9,5 +11,7 @@ function createNavMenu() {
        
     }
 }
+return a * b;
+}
 
-createNavMenu();
+
